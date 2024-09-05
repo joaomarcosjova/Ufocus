@@ -37,8 +37,10 @@ const PageFooter = () => {
   return (
     <Footer>
       <Credits>
-        <Text><AiOutlineCode />Developed by <a href="https://github.com/arixpsy" tabIndex="-1">Arix</a></Text>
-        <Text><FaCode />Source code on <a href="https://github.com/arixpsy/wasd" tabIndex="-1">Github</a></Text>
+        <Text><AiOutlineCode />Developed by <a href="https://marcosjova.netlify.app/" target='blank'>Marcos Jova</a> </Text>
+        {/* <Text><AiOutlineCode />A product of <a href="https://kadoshsoftwares.com" target='blank'>Kadosh Softwares</a> </Text> */}
+        <Text><FaCode />A product of <a href="https://kadoshsoftwares.com" target='blank'>Kadosh Softwares</a></Text>
+        {/* <Text><FaCode />Source code on <a href="https://github.com/arixpsy/wasd" target='blank'>Github</a></Text> */}
       </Credits>
       <Options>
         <DarkModeButton />

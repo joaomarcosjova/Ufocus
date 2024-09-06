@@ -4,7 +4,7 @@ import _ from 'lodash'
 
 const INPUTS = Object.freeze({
   ARROW: ['up', 'down', 'left', 'right'],
-  LETTER: ['w', 'a', 's', 'd']
+  LETTER: ['w', 'a', 's', 'd',]
 })
 
 const VALID_KEYS = {
